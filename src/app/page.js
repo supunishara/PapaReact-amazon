@@ -2,7 +2,11 @@
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import ProductFeed from "../components/ProductFeed";
-import { useSession, signIn, signOut } from "next-auth/react";
+import {
+  useSession,
+  signIn,
+  signOut,
+} from "../../node_modules/next-auth/react";
 
 export default function Home() {
   const { data: session, status } = useSession();

@@ -1,7 +1,7 @@
-import NextAuth from "next-auth";
+import NextAuth from "../../../../../node_modules/next-auth";
 
-import GithubProvider from "next-auth/providers/github"
-import GoogleProvider from "next-auth/providers/google";
+import GithubProvider from "../../../../../node_modules/next-auth/providers/github"
+import GoogleProvider from "../../../../../node_modules/next-auth/providers/google";
 
 const handler = NextAuth({
     providers: [
